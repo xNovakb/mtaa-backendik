@@ -1,1 +1,1 @@
-web: java -jar build/libs/budgetProgram-0.0.1-SNAPSHOT.jar
+web: -Dserver.port=33743 $JAVA_OPTS java -jar build/libs/budgetProgram-0.0.1-SNAPSHOT.jar
